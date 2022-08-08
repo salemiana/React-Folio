@@ -3,9 +3,7 @@ import coverImage from '../../assets/cover/cover-image.jpg';
 
 const About = () => {
   return (
-    // <section className="my-2">
-    //   <h1 id="about-me"> Me </h1>
-    //   
+ 
       <div className="my-2">
         <p> I am a full stack developer </p>
         <img
