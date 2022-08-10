@@ -1,12 +1,11 @@
 import React from 'react'
 
-export default function Contact() {
+export default function Skills() {
   return (
     <div className='container'>
         <h1 className='text-center'> 
-        Contact Me
+        Skills
         </h1>
     </div>
-   
   )
 }
