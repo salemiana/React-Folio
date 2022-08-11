@@ -1,70 +1,59 @@
 const header = {
     // all the properties are optional - can be left empty or deleted
-    homepage: 'https://rajshekhar26.github.io/cleanfolio',
-    title: 'JS.',
+    homepage: 'https://salemiana.github.io/reactfolio',
+    title: 'SZ',
   }
   
   const about = {
     name: 'Salem Zerezghi',
     role: 'Full Stack Developer',
     description:
-      'V',
+      'A passionate about creating apps and simplifying technnology for users.',
     resume: 'https://example.com',
-    contactLinks: {
+    links: {
       linkedin: 'https://www.linkedin.com/in/salem-zerezghi-136a2416a/',
       github: 'https://github.com/Salemiana',
     },
   }
   
   const projects = [
-    // projects can be added an removed
-    // if there are no projects, Projects section won't show up
+   
     {
-      name: 'Project 1',
+      name: 'Tech-blog',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
+        'A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.',
+      stack: ['JavaScript', 'CSS', 'MySQL'],
+      sourceCode: 'https://github.com/salemiana/tech_blog',
+      liveDeploy: 'https://blooming-everglades-30856.herokuapp.com/',
+    },
+    {
+      name: 'Musitory',
+      description:
+        'A music app that lets user choose any song by artist name',
+      stack: ['HTML', 'JavaScript', 'CSS'],
+      sourceCode: 'https://github.com/salemiana/Musitory',
       livePreview: 'https://github.com',
     },
     {
-      name: 'Project 2',
+      name: 'Cineview',
       description:
         'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
-    },
-    {
-      name: 'Project 3',
-      description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
+      stack: ['MongoDb', 'Express', 'Node', 'React'],
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
     },
   ]
   
   const skills = [
-    // skills can be added or removed
-    // if there are no skills, Skills section won't show up
     'HTML',
     'CSS',
     'JavaScript',
-    'TypeScript',
     'React',
-    'Redux',
-    'SASS',
-    'Material UI',
-    'Git',
-    'CI/CD',
-    'Jest',
-    'Enzyme',
+    'MERN',
   ]
   
   const contact = {
-    // email is optional - if left empty Contact section won't show up
-    email: 'johnsmith@mail.com',
+    email: 'salem.zerezghi2@gmail.com',
   }
   
   export { header, about, projects, skills, contact }
