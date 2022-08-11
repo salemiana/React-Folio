@@ -2,12 +2,13 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { about } from "../../portfolio";
+import "./style.css"
 
 const About = () => {
   const { name, role, description, resume, links } = about;
 
   return (
-    <div className="about center">
+    <div className="about center jingle">
       {name && (
         <h1>
           Hi, I am <span className="about-name">{name}.</span>
