@@ -1,31 +1,32 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom"
+import { Projects, Skills, Contact } from '../../portfolio'
 import "./style.css"
 
 export default function Nav() {
   return (
     <ul>
       <li>
-        <NavLink activeClassName="active" to="/">
+        <NavLink activeclassname="active" to="/">
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="/about">
+        <NavLink activeclassname="active" to="/about">
           About
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="/Projects">
+        <NavLink activeclassname="active" to="../../Projects">
           Projects
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="/Skills">
+        <NavLink activeclassname="active" to="/Skills">
           Skills
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="/Contact">
+        <NavLink activeclassname="active" to="/Contact">
           Contact
         </NavLink>
       </li>

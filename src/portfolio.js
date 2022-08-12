@@ -1,5 +1,4 @@
 const header = {
-    // all the properties are optional - can be left empty or deleted
     homepage: 'https://salemiana.github.io/reactfolio',
     title: 'SZ',
   }
@@ -21,7 +20,7 @@ const header = {
     {
       name: 'Tech-blog',
       description:
-        'A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.',
+        'A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers posts as well.',
       stack: ['JavaScript', 'CSS', 'MySQL'],
       sourceCode: 'https://github.com/salemiana/tech_blog',
       liveDeploy: 'https://blooming-everglades-30856.herokuapp.com/',

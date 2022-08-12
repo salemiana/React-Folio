@@ -1,11 +1,23 @@
 import React from 'react'
+import uniqid from 'uniqid'
+import { projects } from '../../portfolio'
+import PrContainer from '../PrContainer/PrContainer'
 
-export default function Projects() {
+const Projects = () => {
+  if (!projects.length) return null
   return (
-    <div className='container'>
-        <h1 className='text-center'> 
+    <div className='pr-container'>
+        <h2 className='pr-title'> 
         Projects
-        </h1>
+        </h2>
+
+        <div className='pr-grid'>
+          {projects.map((projects) => (
+          <PrContainer key={uniqid()} projects={projects} />
+          ))}
+        </div>
     </div>
   )
 }
+
+export default Projects

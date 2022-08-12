@@ -1,3 +1,8 @@
-.jingle{
-    background-color: red;
+.jingle {
+    flex-direction: column;
+    margin-top: 2px;
+}
+
+.about-name {
+    color: darkblue;
 }
