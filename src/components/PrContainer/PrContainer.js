@@ -1,8 +1,8 @@
 import React from 'react'
 import uniquid from 'uniqid'
-// import GitHubIcon from '@material-ui/icons/GitHub'
-// import LaunchIcon from '@material-ui/icons/Launch'
-//import { projects } from '../portfolio'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { Icon } from '@iconify/react';
+
 
 const PrContainer = ({ projects }) => (
     <div className='projects'>
@@ -25,17 +25,17 @@ const PrContainer = ({ projects }) => (
         aria-label='source code'
         className='link link--icon'
       >
-        {/* <GitHubIcon /> */}
+        <GitHubIcon />
       </a>
     )}
 
-    {projects.links && (
+    {projects.liveDeploy && (
       <a
-        href={projects.links}
+        href={projects.liveDeploy}
         aria-label='link preview'
         className='link link--icon'
       >
-        {/* <LaunchIcon /> */}
+        <Icon icon="logos:heroku-icon" />
       </a>
     )}
   </div>

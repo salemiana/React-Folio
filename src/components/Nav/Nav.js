@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import { Projects, Skills, Contact } from '../../portfolio'
+import { projects, Skills, Contact } from '../../portfolio'
 import "./style.css"
 
 export default function Nav() {

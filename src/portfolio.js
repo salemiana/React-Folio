@@ -31,7 +31,7 @@ const header = {
         'A music app that lets user choose any song by artist name',
       stack: ['HTML', 'JavaScript', 'CSS'],
       sourceCode: 'https://github.com/salemiana/Musitory',
-      livePreview: 'https://github.com',
+      liveDeploy: 'https://github.com',
     },
     {
       name: 'Cineview',
@@ -39,7 +39,7 @@ const header = {
         'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
       stack: ['MongoDb', 'Express', 'Node', 'React'],
       sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
+      liveDeploy: 'https://github.com',
     },
   ]
   
