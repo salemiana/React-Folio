@@ -1,13 +1,13 @@
-const header = {
-    homepage: 'https://salemiana.github.io/reactfolio',
-    title: 'SZ',
-  }
+// const header = {
+//     homepage: 'https://salemiana.github.io/reactfolio',
+//     title: 'SZ',
+//   }
   
   const about = {
     name: 'Salem Zerezghi',
     role: 'Full Stack Developer',
-    description:
-      'A passionate about creating apps and simplifying technnology for users.',
+    description: 
+      'Passionate about creating apps and simplifying technnology for users.',
     resume: 'https://example.com',
     links: {
       linkedin: 'https://www.linkedin.com/in/salem-zerezghi-136a2416a/',
@@ -55,4 +55,4 @@ const header = {
     email: 'salem.zerezghi2@gmail.com',
   }
   
-  export { header, about, projects, skills, contact }
+  export { about, projects, skills, contact }

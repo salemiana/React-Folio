@@ -1,5 +1,5 @@
 import { header } from '../../portfolio'
-import Navbar from '../Navbar/Navbar'
+import Nav from '../Nav/Nav'
 //import './Header.css'
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
           title
         )}
       </h3>
-      <Navbar />
+      <Nav />
     </header>
   )
 }
