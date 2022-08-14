@@ -1,6 +1,6 @@
 import { header } from '../../portfolio'
 import Nav from '../Nav/Nav'
-//import './Header.css'
+import './style.css'
 
 const Header = () => {
   const { homepage, title } = header

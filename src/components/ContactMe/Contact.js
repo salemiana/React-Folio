@@ -1,5 +1,6 @@
 import React from 'react'
 import { contact } from '../../portfolio'
+import './style.css'
 
 export default function Contact() {
   return (
@@ -8,7 +9,7 @@ export default function Contact() {
         Contact Me
         </h2>
         <a href={`mailto:${contact.email}`}>
-          <span type='button'>
+          <span type='button' className='btn btn--outline'>
             email me
           </span>
         </a>

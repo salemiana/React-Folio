@@ -6,8 +6,8 @@ import PrContainer from '../PrContainer/PrContainer'
 const Projects = () => {
   if (!projects.length) return null
   return (
-    <div className='pr-container'>
-        <h2 className='pr-title'> 
+    <div className='pr-container center'>
+        <h2 className='pr-title center'> 
         Projects
         </h2>
 
