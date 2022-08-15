@@ -28,10 +28,14 @@
 
 .about .link--icon {
   margin-right: 0.8em;
+  
+  color: rgb(104, 104, 235);
 }
 
 .about .btn--outline {
   margin-right: 1em;
+  border: solid rgb(128, 128, 211);
+  background-color: rgb(104, 104, 235);
 }
 
 @media (max-width: 600px) {

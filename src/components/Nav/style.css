@@ -1,10 +1,18 @@
 .active {
-  background-color: rgb(214, 207, 146);
+  background-color: rgb(17, 164, 184);
 }
 
 ul {
+  margin: 0;
+  overflow: hidden;
   border: 2px ;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  background-color: rgb(101, 94, 122);
+  row-gap: 2em;
+}
+
+li {
+  float: right;
 }
