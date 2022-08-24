@@ -11,7 +11,10 @@ ul {
   list-style-type: none;
   background-color: rgb(101, 94, 122);
   row-gap: 2em;
+  height: 50px;
+  align-items: center;
 }
+
 
 li {
   float: right;

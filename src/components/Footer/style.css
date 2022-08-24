@@ -1,18 +1,13 @@
-.footer {
-    padding: 3em 0;
-    margin-top: 4em;
-    text-align: center;
-  }
-  
-  .footer-link {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--clr-fg);
-  }
-  
-  @media (max-width: 600px) {
-    .footer {
-      padding: 2em;
-      margin-top: 3em;
-    }
-  }
+.FooterItems {
+  background-color: rgb(65, 64, 64);
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+}
+.fa-github, .fa-facebook, .fa-twitter, .fa-instagram, .fa-youtube{
+   color: lightgray;
+}
