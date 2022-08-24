@@ -11,3 +11,18 @@
 .fa-github, .fa-facebook, .fa-twitter, .fa-instagram, .fa-youtube{
    color: lightgray;
 }
+
+.footer-icon {
+  height: 30px;
+  width: auto;
+}
+
+footer{
+  margin-top: 50px;
+  background-color: rgb(101, 94, 122);
+  row-gap: 2em;
+  justify-content: center;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
