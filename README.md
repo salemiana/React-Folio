@@ -1,9 +1,7 @@
-<h1 align="center">Cineview</h1>
+<h1 align="center">React-Folio</h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
-![](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB)
-![](https://img.shields.io/badge/npm%20package-express-orange?style=flat-square&logo=npm) 
-![](https://img.shields.io/badge/npm%20package-mongoose-cyan?style=flat-square&logo=npm) 
+
 
 ## Table of contents
 - [Description](#description)
@@ -54,3 +52,4 @@ MIT
 Contact <br />
 github: https://github.com/salemiana/react-folio
 
+![react-portfolio](https://user-images.githubusercontent.com/101297588/186564492-368123a0-8d9c-4c1b-876b-c5b70adabd88.png)
