@@ -34,7 +34,7 @@ MIT
 
 ## Questions
 Contact <br />
-github: https://github.com/salemiana/react-folio
+github: https://github.com/salemiana/react-folio <br />
 deploy: https://salemiana.github.io/react-folio/
 
 ![react-portfolio](https://user-images.githubusercontent.com/101297588/186564492-368123a0-8d9c-4c1b-876b-c5b70adabd88.png)
