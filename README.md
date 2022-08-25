@@ -1,4 +1,4 @@
-<h1 align="center">Cineview</h1>
+<h1 align="center">React-Folio</h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
