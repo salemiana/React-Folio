@@ -37,4 +37,5 @@ Contact <br />
 github: https://github.com/salemiana/react-folio <br />
 deploy: https://salemiana.github.io/react-folio/
 
-![react-portfolio](https://user-images.githubusercontent.com/101297588/186564492-368123a0-8d9c-4c1b-876b-c5b70adabd88.png)
+
+![screencapture-portfolio](https://user-images.githubusercontent.com/101297588/187574793-e8ad8ba2-eccc-4f99-8154-1b160964c2d3.png)
