@@ -11,3 +11,7 @@
   .skills-list-item {
     margin: 0.5em;
   }
+
+  .skills-title {
+    text-align: center;
+  }

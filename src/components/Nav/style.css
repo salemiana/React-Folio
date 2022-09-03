@@ -20,3 +20,38 @@ ul {
 li {
   float: right;
 }
+.active {
+  background-color: #c47135;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+}
+.active:before,
+.active:after {
+  border: 0 solid transparent;
+  transition: all 0.25s;
+  content: '';
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+.active:before {
+  border-top: 2px solid #c47135;
+  left: 0px;
+  top: -5px;
+}
+.active:after {
+  border-bottom: 2px solid #c47135;
+  bottom: -5px;
+  right: 0px;
+}
+.active:hover {
+  background-color: #c47135;
+}
+.active:hover:before,
+.active:hover:after {
+  height: 100%;
+  width: 100%;
+}

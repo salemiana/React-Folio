@@ -7,7 +7,9 @@ const about = {
   name: "Salem Zerezghi",
   role: "Full Stack Developer",
   description:
-    "Recently certified full satck developer with passion for developing scalable web applications, and ready to contribute and grow my skills through creating apps and simplifying technnology for users.", 
+    "Recently certified full stack developer with passion for developing scalable web applications, and ready to contribute and grow my skills through creating apps and simplifying technnology for users.", 
+  
+  
   resume: "https://example.com",
   links: {
     linkedin: "https://www.linkedin.com/in/salem-zerezghi-136a2416a/",

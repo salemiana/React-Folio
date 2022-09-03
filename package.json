@@ -1,36 +1,41 @@
 {
-  "homepage": "https://salemiana.github.io/react-folio/",
+  "homepage": "https://salemiana.github.io/react-folio",
   "name": "react-folio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.10.2",
     "@mui/material": "^5.10.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.2.0",
-    "eslint-config-react-app": "^7.0.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-loaders": "^3.0.1",
     "react-pdf": "^5.7.2",
     "react-scripts": "5.0.1",
     "react-sticky-nav": "^4.0.6",
     "uniqid": "^5.4.0",
     "web-vitals": "^2.1.4"
   },
+ 
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint .",
     "eject": "react-scripts eject"
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,6 +50,13 @@
   },
   "devDependencies": {
     "@iconify/react": "^3.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "gh-pages": "^4.0.0",
     "nodemon": "^2.0.19",
     "react-router-dom": "^6.3.0"

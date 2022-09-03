@@ -1,3 +1,16 @@
 .contact {
     flex-direction: column;
   }
+
+  #contact-form{
+    display: inline-block;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+    
+  }
+
+  h1{
+    text-align: center;
+
+  }

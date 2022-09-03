@@ -7,6 +7,11 @@ export default function Nav() {
     <ul>
       
       <li className="nav">
+        <NavLink activeclassname="active" to="/Home">
+          SZ
+        </NavLink>
+      </li>
+      <li className="nav">
         <NavLink activeclassname="active" to="/">
           About
         </NavLink>
