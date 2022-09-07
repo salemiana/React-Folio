@@ -1,6 +1,7 @@
 const header = {
   homepage: "https://salemiana.github.io/reactfolio",
   title: "SZ",
+  
 };
 
 const about = {

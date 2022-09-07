@@ -7,7 +7,7 @@ import Skills from "./components/Skills/Skills";
 import Contact from "./components/ContactMe/Contact";
 import Footer from "./components/Footer/Footer"
 import Nav from "./components/Nav/Nav";
-import Home from "./components/Home/Home"
+// import Home from "./components/Home/Home"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 
@@ -18,9 +18,9 @@ function App() {
 
     <BrowserRouter>
       <Nav />
+      <About />
       <Routes>
         
-        <Route exact path="/" element={<Home />} />
         <Route exact path="/About" element={<About />}></Route>
         <Route exact path="/Projects" element={<Projects />}></Route>
         <Route exact path="/Skills" element={<Skills />} />

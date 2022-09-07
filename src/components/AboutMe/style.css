@@ -44,3 +44,9 @@
     margin-top: 2em;
   }
 }
+
+.photo {
+  width: 16rem;
+  border-radius: 50%;
+  padding: .3rem;
+}
