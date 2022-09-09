@@ -5,15 +5,20 @@
 
 ul {
   margin: 0;
+  margin-right: 1.5em;
   overflow: hidden;
   border: 2px ;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   background-color: rgb(101, 94, 122);
+  background-position: 100%;
   row-gap: 2em;
   height: 50px;
   align-items: center;
+  position: sticky;
+  position:-webkit-sticky;
+  top:0px;
 }
 
 

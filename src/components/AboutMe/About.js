@@ -24,10 +24,6 @@ const About = () => {
       <div> 
       <img className="photo"  src={ selfphoto } alt={"selfphoto"}/>
       </div>
-          {/* className="photo"
-          id="profilePic"
-          style={{ width: "20%", height: "auto" }}
-        /> */} 
 
       <div className="about-contact center">
         {resume && (
