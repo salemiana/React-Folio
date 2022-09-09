@@ -4,6 +4,7 @@ import React from "react";
 //import { selfphoto } from "src/assets/images/selfphoto.jpg";
 import  selfphoto  from "../../assets/images/selfphoto.jpg";
 import { about } from "../../portfolio";
+import resume from "../Resume/Resume"
 
 import "./style.css";
 

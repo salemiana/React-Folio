@@ -11,7 +11,7 @@ const about = {
     "Recently certified full stack developer with passion for developing scalable web applications, and ready to contribute and grow my skills through creating apps and simplifying technnology for users.", 
   
   
-  resume: "https://example.com",
+  resume: "https://docs.google.com/document/d/1VFq-ywH_jWtQfO289ol2lQOhrH4TA13ubZ4Px2Jb2Xo",
   links: {
     linkedin: "https://www.linkedin.com/in/salem-zerezghi-136a2416a/",
     github: "https://github.com/Salemiana",
