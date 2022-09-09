@@ -6,8 +6,13 @@ export default function Nav() {
   return (
     <ul>
       
+      {/* <li className="nav">
+        <NavLink activeclassname="active" to="/Home">
+          SZ
+        </NavLink>
+      </li> */}
       <li className="nav">
-        <NavLink activeclassname="active" to="/">
+        <NavLink activeclassname="active" to="/About">
           About
         </NavLink>
       </li>

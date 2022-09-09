@@ -1,13 +1,27 @@
 .skills-list {
-    max-width: 450px;
+    /* max-width: 450px; */
     width: 95%;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: row;
+    /* flex-direction: row; */
+    background-color: white;
+    text-shadow: 20px;
+  }
+
+  ul {
+    list-style-type: none;
   }
   
   .skills-list-item {
     margin: 0.5em;
+    display: block;
+    padding: 0.8em 1.4em;
+    font-weight: 500;
+    font-size: .9em;
+  }
+
+  .skills-title {
+    text-align: center;
   }
