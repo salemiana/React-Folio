@@ -30,7 +30,7 @@ const PrContainer = ({ projects }) => (
       </a>
     )}
 
-    {projects.liveDeploy && (
+    {/* {projects.liveDeploy && (
       <a
         href={projects.liveDeploy}
         aria-label='link preview'
@@ -38,7 +38,7 @@ const PrContainer = ({ projects }) => (
       >
         <Icon icon="logos:heroku-icon" />
       </a>
-    )}
+    )} */}
   </div>
 )
 

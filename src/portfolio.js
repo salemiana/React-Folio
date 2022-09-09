@@ -25,22 +25,22 @@ const projects = [
       "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers posts as well.",
     stack: ["JavaScript", "CSS", "MySQL"],
     sourceCode: "https://github.com/salemiana/tech_blog",
-    liveDeploy: "https://blooming-everglades-30856.herokuapp.com/",
+    // liveDeploy: "https://blooming-everglades-30856.herokuapp.com/",
   },
   {
     name: "Musitory",
     description: "A music app that lets user choose any song by artist name",
     stack: ["HTML", "JavaScript", "CSS"],
     sourceCode: "https://github.com/salemiana/Musitory",
-    liveDeploy: "https://github.com",
+    // liveDeploy: "https://github.com",
   },
-  {
+   {
     name: "Cineview",
     description:
       " A movie App  to let users search for their favorite movies, actors, and Tv information built using MERN",
     stack: ["MongoDb", "Express", "Node", "React"],
     sourceCode: "https://github.com/salemiana/cineview",
-    liveDeploy: "https://pure-forest-35565.herokuapp.com",
+    // liveDeploy: "https://pure-forest-35565.herokuapp.com",
   },
   {
     name: "Note Taker",
@@ -48,7 +48,7 @@ const projects = [
       "An application that can be used to write and save notes and it uses an Express.js back end and will save/retrieve note data from a JSON file.",
     stack: ["Express", "Node"],
     sourceCode: "https://github.com/salemiana/Express-Note-Taker",
-    liveDeploy: "https://arcane-everglades-97054.herokuapp.com/",
+    // liveDeploy: "https://arcane-everglades-97054.herokuapp.com/",
   },
   {
     name: "Budget Trucker",
@@ -56,15 +56,15 @@ const projects = [
       "Adding functionality to an existing budget tracker application to allow for offline access and functionality.",
     stack: ["Express", "MOngoDB", "Mongoose"],
     sourceCode: "https://github.com/salemiana/PWA_Budget_Trucker",
-    liveDeploy: "https://salty-woodland-13605.herokuapp.com/",
+    // liveDeploy: "https://salty-woodland-13605.herokuapp.com/",
   },
   {
     name: "Tech blog",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+      "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
     stack: ["Express", "Sequelize", "MySQL"],
     sourceCode: "https://github.com/salemiana/tech_blog",
-    liveDeploy: "https://blooming-everglades-30856.herokuapp.com/",
+    // liveDeploy: "https://blooming-everglades-30856.herokuapp.com/",
   },
 
 ];
