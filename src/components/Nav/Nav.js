@@ -12,7 +12,7 @@ export default function Nav() {
         </NavLink>
       </li> */}
       <li className="nav">
-        <NavLink activeclassname="active" to="/About">
+        <NavLink activeclassname="active" to="/">
           About
         </NavLink>
       </li>
