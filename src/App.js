@@ -19,11 +19,12 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
+          <Route exact path="/react-folio" element={<About />} />
           <Route exact path="/" element={<About />} />
           <Route exact path="/Projects" element={<Projects />} />
           <Route exact path="/Skills" element={<Skills />} />
           <Route exact path="/Contact" element={<Contact />} />
-          <Route exact path="/Resume" element={<Resume />}/>
+          <Route exact path="/Resume" element={<Resume />} />
         </Routes>
       </BrowserRouter>
 
