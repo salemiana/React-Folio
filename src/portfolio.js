@@ -20,11 +20,11 @@ const about = {
 
 const projects = [
   {
-    name: "Tech-blog",
+    name: "Coder-Quizzy",
     description:
-      "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers posts as well.",
-    stack: ["JavaScript", "CSS", "MySQL"],
-    sourceCode: "https://github.com/salemiana/tech_blog",
+      "A timed coding quiz app with multiple-choice questions that will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code.",
+    stack: ["HTML", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/salemiana/coder-quizzy",
     // liveDeploy: "https://blooming-everglades-30856.herokuapp.com/",
   },
   {
