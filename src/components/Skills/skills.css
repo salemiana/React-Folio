@@ -5,10 +5,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* flex-direction: row; */
+     flex-direction: row; 
     background-color: white;
     text-shadow: 20px;
+    height: auto;
   }
+
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .skills-list {
+    flex-direction: column;
+  }
+}
 
   ul {
     list-style-type: none;

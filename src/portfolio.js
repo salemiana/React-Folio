@@ -8,12 +8,12 @@ const about = {
   name: "Salem Zerezghi",
   role: "Full Stack Developer",
   description:
-    "Recently certified full stack developer with passion for developing scalable web applications, and ready to contribute and grow my skills through creating apps and simplifying technnology for users.", 
+    "Recently certified full stack developer with passion for developing scalable web applications, equipped with skills needed to create products that bring joy to the lives of users.", 
   
   
   resume: "https://docs.google.com/document/d/1VFq-ywH_jWtQfO289ol2lQOhrH4TA13ubZ4Px2Jb2Xo",
   links: {
-    linkedin: "https://www.linkedin.com/in/salem-zerezghi-136a2416a/",
+    linkedin: "https://www.linkedin.com/in/salem-zerezghi/",
     github: "https://github.com/Salemiana",
   },
 };
@@ -69,7 +69,7 @@ const projects = [
 
 ];
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "MERN", "MySql", "NoSQL", "Mongoose" ];
+const skills = ["HTML", "CSS", "Git", "JavaScript", "API", "OOP", "Node", "Express", "React", "SQL", "PWA", "NoSQL", "MongoDB" ];
 
 const contact = {
   email: "salem.zerezghi2@gmail.com",

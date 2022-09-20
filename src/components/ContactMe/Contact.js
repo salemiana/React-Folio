@@ -37,6 +37,33 @@ function ContactForm() {
     }
   };
 
+  const sendEmail = (e) => {
+    e.preventDefault()
+    
+    const name = form.current[0].value;
+    const email = form.current[1].value;
+    const message = form.current[2].value;
+if(name && email && message){
+    emailjs
+      .sendForm(
+        `${process.env.REACT_APP_SERVICEID}`,
+        'template_toitm7j',
+        form.current,
+        `${process.env.REACT_APP_USERTOKEN}`
+      )
+      .then(
+        () => {
+          window.location.reload(false)
+        },
+        (err) => {
+          alert('Failed to send the message, please try again')
+          console.log(err)
+        }
+      )
+    } else{ alert('Please fill out entire form');}
+     
+  }
+
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
