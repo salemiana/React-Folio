@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-folio/static/css/main.c42321f5.css",
-    "main.js": "/react-folio/static/js/main.2514a1da.js",
+    "main.css": "/react-folio/static/css/main.9ddd671a.css",
+    "main.js": "/react-folio/static/js/main.adfac5e7.js",
     "static/media/resume.pdf": "/react-folio/static/media/resume.e242f5a850d2eb9aa7e6.pdf",
     "static/media/selfphoto.jpg": "/react-folio/static/media/selfphoto.7522a8fb133daa630226.jpg",
     "index.html": "/react-folio/index.html",
-    "main.c42321f5.css.map": "/react-folio/static/css/main.c42321f5.css.map",
-    "main.2514a1da.js.map": "/react-folio/static/js/main.2514a1da.js.map"
+    "main.9ddd671a.css.map": "/react-folio/static/css/main.9ddd671a.css.map",
+    "main.adfac5e7.js.map": "/react-folio/static/js/main.adfac5e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c42321f5.css",
-    "static/js/main.2514a1da.js"
+    "static/css/main.9ddd671a.css",
+    "static/js/main.adfac5e7.js"
   ]
 }
