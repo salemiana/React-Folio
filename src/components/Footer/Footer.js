@@ -9,13 +9,13 @@ function Footer(){
                   <a href = "https://github.com/salemiana">< GitHubIcon /></a>
               </div>
               <div className = "footer-icon m-2">
-                  <a href = "https://www.linkedin.com/in/valerie-aleida-lopez/"><LinkedInIcon/></a>
+                  <a href = "https://www.https://www.linkedin.com/in/salem-zerezghi/"><LinkedInIcon/></a>
               </div>
               {/* <div className = "footer-icon m-2">
                   <a href = "mailto:salem.zerezghi2@gmail.com"><FaEnvelope size={30}/></a>
               </div>npm start
               <div className = "footer-icon m-2">
-                  <a href = "https://valerie-a-lopez.wixsite.com/home"><FaWix size={30}/></a>
+                  <a href = "https://www.linkedin.com/in/salem-zerezghi/home"><FaWix size={30}/></a>
               </div> */}
       </footer>
   );
