@@ -1,7 +1,7 @@
 import React from "react";
 // import GitHubIcon from "@mui/icons-material/GitHub";
 // import LinkedInIcon from "@mui/icons-material/LinkedIn";
-//import { selfphoto } from "src/assets/images/selfphoto.jpg";
+//import collage from "src/assets/images/collage.jpg";
 import  selfphoto  from "../../assets/images/selfphoto.jpg";
 import { about } from "../../portfolio";
 import resume from "../Resume/Resume"

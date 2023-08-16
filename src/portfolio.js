@@ -63,7 +63,7 @@ const projects = [
     description:
       "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
     stack: ["Express", "Sequelize", "MySQL"],
-    sourceCode: "https://github.com/salemiana/tech_blog",
+    sourceCode: "n",
     // liveDeploy: "https://blooming-everglades-30856.herokuapp.com/",
   },
 
