@@ -4,21 +4,18 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="text-center text-lg-start bg-light text-muted d-flex justify-content-center">
-      <div className="footer-icon m-2">
-        <a href="https://github.com/salemiana">
-          <GitHubIcon />
-        </a>
-      </div>
-      <div className="footer-icon m-2">
-        <a href="https://www.linkedin.com/in/salem-zerezghi/">
-          <LinkedInIcon />
-        </a>
-      </div>
-      {/* <div className = "footer-icon m-2">
+      <footer className = "text-center text-lg-start bg-light text-muted d-flex justify-content-center">
+              <div className = "footer-icon m-2">
+                  <a href = "https://github.com/salemiana">< GitHubIcon /></a>
+              </div>
+              <div className = "footer-icon m-2">
+                  <a href = "https://www.linkedin.com/in/salem-zerezghi/"><LinkedInIcon/></a>
+              </div>
+              {/* <div className = "footer-icon m-2">
                   <a href = "mailto:salem.zerezghi2@gmail.com"><FaEnvelope size={30}/></a>
               </div>npm start
               <div className = "footer-icon m-2">
+                  <a href = "https://www.linkedin.com/in/salem-zerezghi/home"><FaWix size={30}/></a>
               </div> */}
     </footer>
   );
